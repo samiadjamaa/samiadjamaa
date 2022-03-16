@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+img{
+    width: 85px;
+    height: 85px;
+}
+body{
+    background-color: white ;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    font-size: 1.22rem;
+    min-height:100vh;
+    margin: 0%;
+    
+}
+.full-height-grow{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+.brand-logo {
+    display: flex;
+    align-items: center;
+    font-size: 29pt;
+    color: rgb(240, 140, 10);
+    text-decoration: none;
+
+ }
+ .brand-logo-name {
+    margin-left: 1rem;
+    letter-spacing: 3px;
+   
+    
+ }
+ .main-nav ul , .footer-nav ul{
+     display: flex;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+
+ }
+ .main-nav a , .footer-nav a {
+     color: rgb(240, 140, 10) ;
+     text-decoration: none;
+     padding: 1rem;
+     font-size: 19pt;
+
+ }
+ .main-nav a:hover , .footer-nav a:hover{
+     color:black;
+ }
+ .main-header , .main-footer{
+    display: flex;
+     justify-content:space-between;
+     align-items: center;
+  
+ }
+ .main-header{
+    height: 140px;
+
+ }
+ .main-footer{
+     height: 70px;
+     background-color: greenyellow;
+     font-weight: bold;
+ }
+ .socialmedia-link svg {
+     width: 1em;
+     margin-right:.25rem ;
+ }
+
+ 
+
+ .main-footer .container{
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .container
+ {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0  40px;
+  flex-grow: 1;
+   
+ }
+ .title{
+     color: rgb(240, 140, 10);
+     font-size: 3em;
+     font-weight: 500;
+     margin-bottom: 1rem;
+    
+
+ }
+ .text1{
+     font-weight: 500;
+     font-size: 1.2em;
+     margin-bottom: 2rem;
+
+ }
+ .btn{
+     color: black;
+     background-color: rgb(235, 250, 32);
+    padding: .75rem 1.5em;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: 12pt;
+ }
